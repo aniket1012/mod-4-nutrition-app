@@ -22,12 +22,12 @@ class UserMeals extends React.Component {
             </ol>
         </div>
         
-          <div className="daily-totals">
+          {/* <div className="daily-totals">
             <p>Total Daily Calories :</p>
             <p>Total Daily Carbohydrates :</p>
             <p>Total Daily Protein :</p>
             <p>Total Daily Fat :</p>
-          </div>
+          </div> */}
     </div>
   )
 }
