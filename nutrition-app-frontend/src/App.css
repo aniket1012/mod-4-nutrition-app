@@ -1,0 +1,403 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:600i&display=swap');
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.landing {
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(to bottom, rgb(32, 32, 32), rgb(0, 0, 0));
+  text-align: center;
+  margin: 0;
+  font-size: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sign-up-page {
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(to bottom, rgb(32, 32, 32), rgb(0, 0, 0));
+  text-align: center;
+  margin: 0;
+  font-size: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.login-page {
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(to bottom, rgb(32, 32, 32), rgb(0, 0, 0));
+  text-align: center;
+  margin: 0;
+  font-size: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.navbar {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  background: linear-gradient(to bottom, rgb(32, 32, 32), rgb(0, 0, 0));
+  color: rgb(49, 49, 49);
+  position: sticky;
+  
+}
+
+ a, button {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: rgba(31, 29, 29,1);
+  text-decoration: none; 
+}
+
+li {
+  font-family: 'Raleway',
+  sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: rgb(255, 254, 254);
+  text-decoration: none;
+}
+
+
+h1, h3, h5, p {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  color: #e9e5e5;
+  text-decoration: none;
+}
+
+p:hover {
+  background-color: rgba(155, 154, 154, 0.4)
+}
+
+li:hover {
+  background-color: rgba(155, 154, 154, 0.4)
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px 2%;
+}
+
+.logo {
+  cursor: pointer;
+  height: 80px;
+  padding: 0;
+  margin-right: auto;
+}
+
+#create-meal-button {
+  color: rgb(182, 182, 182);
+}
+
+.nav_links {
+  list-style: none;
+  
+}
+
+.nav_links li {
+  display: inline-block;
+  padding: 0px 20px;
+  text-decoration: underline;
+}
+
+.nav_links li a {
+  transition: all 0.3s ease 0s;
+}
+.nav_links li a:hover {
+  color: rgb(209, 209, 209);
+}
+
+button {
+  padding: 10px;
+  margin-left: auto;
+  background: linear-gradient(to bottom, rgb(51, 51, 51), rgb(17, 17, 17));
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  color: white
+}
+
+button:hover {
+  background: linear-gradient(to bottom, rgb(197, 197, 197), rgb(66, 66, 66));
+  color: rgb(240, 240, 240)
+}
+
+.main-container {
+  /* border: 1px solid rgb(218, 8, 8); */
+  background: linear-gradient(to top, rgb(66, 66, 66), rgb(17, 17, 17));
+  /* height: 425px; */
+  /* background-color: black; */
+  color: white;
+  display: flex;
+  justify-content:space-between;
+  height: 100vh;
+  width: 100vw;
+
+}
+
+.User-Info-Container{
+  /* border: 1px solid rgb(10, 251, 82); */
+  width: 50%;
+  padding: 20px;
+  /* background: rgb(60, 61, 60); */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+  
+}
+
+.Create-Meals-Container {
+  /* border: 1px solid rgb(221, 221, 221); */
+  width: 50%;
+  padding: 20px;
+  /* background: rgb(109, 25, 104); */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+}
+
+.User-Info {
+ /* border: 1px solid rgb(218, 8, 8); */
+ border-style: outset;
+ border-width: 7px;
+ border-color: inear-gradient(to top, rgb(51, 51, 51), rgb(17, 17, 17));
+ 
+ background: rgb(34, 33, 33);
+ margin: 20px;
+ border-radius: 20px;
+ color: rgb(42, 42, 42);
+ display: flex;
+ justify-content:space-between;
+ height: 500px;
+ padding: 20px;
+ background: linear-gradient(to top, rgb(51, 51, 51), rgb(17, 17, 17));
+ 
+ 
+}
+
+.info {
+  /* border: 1px solid rgb(194, 3, 3); */
+  width: 90%;
+  padding: 10px;
+  text-align: left;
+  overflow: auto;
+  
+}
+
+.chart {
+  border: 1px solid rgb(194, 3, 3);
+  width: 50%;
+  padding: 10px;
+}
+
+
+
+.User-Meals {
+  /* border: 1px solid rgb(218, 8, 8);
+  background: rgb(44, 108, 246); */
+  /* height: 425px; */
+  /* color: white;
+  display: flex;
+  justify-content:space-between; */
+  /* height: 400px;
+  padding: 20px; */
+  text-align: left;
+  overflow: auto;
+  
+   /* border: 1px solid rgb(218, 8, 8); */
+   border-style: outset;
+   border-width: 7px;
+   border-color: inear-gradient(to top, rgb(51, 51, 51), rgb(17, 17, 17));
+
+   margin: 20px;
+   border-radius: 20px;
+   color: rgb(195, 187, 187);
+   display: flex;
+   justify-content:space-between;
+   height: 500px;
+   padding: 20px;
+   background: linear-gradient(to top, rgb(51, 51, 51), rgb(17, 17, 17));
+
+}
+
+.Meals {
+  /* border: 1px solid rgb(194, 3, 3); */
+  width: 50%;
+  padding: 10px;
+  overflow: scroll;
+  border-style: outset;
+  border-width: 5px;
+  border-color: inear-gradient(to top, rgb(51, 51, 51), rgb(17, 17, 17));
+  border-radius: 20px;
+}
+
+.daily-totals{
+/* border: 1px solid rgb(194, 3, 3); */
+width: 50%;
+text-align: center;
+padding: 5px;
+overflow: auto;
+}
+
+.Search-Food {
+  /* border: 1px solid rgb(3, 235, 251);
+  background: rgb(109, 96, 96); */
+  /* color: black;
+  display: flex; */
+  flex-direction: column;
+  padding: 20px;
+  height: 400px;
+  margin: 20px;
+  border-radius: 30px;
+  color: rgb(42, 42, 42);
+  display: flex;
+  /* justify-content:space-between; */
+  height: 500px;
+  border-style: outset;
+  border-width: 7px;
+  border-color: inear-gradient(to top, rgb(51, 51, 51), rgb(17, 17, 17));
+  background: linear-gradient(to top, rgb(51, 51, 51), rgb(17, 17, 17));
+
+}
+
+.Create-Meal {
+  margin: 20px;
+  border-radius: 30px;
+  color: rgb(209, 209, 209);
+  display: flex;
+  flex-direction: column;
+  /* justify-content:space-between; */
+  height: 400px;
+  padding: 20px;
+  border-style: outset;
+  border-width: 7px;
+  border-color: inear-gradient(to top, rgb(51, 51, 51), rgb(17, 17, 17));
+  background: linear-gradient(to top, rgb(51, 51, 51), rgb(17, 17, 17));
+}
+
+
+.search-ingredioents-form {
+  /* border: 1px solid rgb(62, 245, 16); */
+  padding: 10px;
+}
+.create-meal-form {
+  /* border: 1px solid rgb(62, 245, 16); */
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ingredients-container {
+  height: 70%;
+  width: 25%;
+  overflow: auto;
+  float: left;
+  border-style: outset;
+  border-width: 7px;
+  border-color: inear-gradient(to top, rgb(51, 51, 51), rgb(17, 17, 17));
+  background: linear-gradient(to top, rgb(51, 51, 51), rgb(17, 17, 17));
+  justify-content: center;
+  
+}
+
+.my-ingredients-container {
+  height: 50%;
+  width: 25%;
+  overflow: auto;
+  float: left;
+  align-content: left;
+  border-style: outset;
+  border-width: 5px;
+  border-color: inear-gradient(to top, rgb(51, 51, 51), rgb(17, 17, 17));
+  background: linear-gradient(to top, rgb(51, 51, 51), rgb(17, 17, 17));
+  justify-content: left;
+}
+
+/* input {
+  height:40%;
+  width: 20%
+} */
+.list-item {
+  border: none;
+  border-radius: 50px;
+  height: 30px;
+  width: 150px;
+  /* padding: 0; */
+  margin-right: auto;
+  background-color: #272829;
+}
+
+
+.Create-Meal-Totals {
+  margin: 20px;
+  float: right;
+  border-style: outset;
+  border-width: 7px;
+  border-color: inear-gradient(to top, rgb(51, 51, 51), rgb(17, 17, 17));
+  background: linear-gradient(to top, rgb(51, 51, 51), rgb(17, 17, 17));
+  font-family: 'Raleway',
+  sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #e9e5e5;
+  text-decoration: none;
+  
+}
+
+.Sign-Up-Form {
+  color: white;
+  border: 1px solid white;
+  width: 1219px;
+  height: 860px;
+  margin: auto;
+  background: black;
+}
+
